@@ -40,7 +40,7 @@ try:
     device = "cuda" if torch.cuda.is_available() else "cpu"
     bart_model = bart_model.to(device)
     logger.info(
-        f"✓ BART model loaded successfully on {device} (Unlimited, Local, Free)"
+        f"[OK] BART model loaded successfully on {device} (Unlimited, Local, Free)"
     )
 except Exception as e:
     logger.error(f"Failed to load BART model: {e}")
@@ -539,7 +539,7 @@ async def get_random_papers(
             )
 
             logger.info(
-                f"✓ OpenAlex returned {len(openalex_papers)} papers with abstracts"
+                f"[OK] OpenAlex returned {len(openalex_papers)} papers with abstracts"
             )
 
             for paper in openalex_papers:
@@ -570,10 +570,10 @@ async def get_random_papers(
                     break
 
         except Exception as e:
-            logger.error(f"✗ OpenAlex error: {e}", exc_info=True)
+            logger.error(f"[ERROR] OpenAlex error: {e}", exc_info=True)
 
     logger.info(
-        f"✓ Collected {len(all_papers)} papers with 50+ citations and abstracts"
+        f"[OK] Collected {len(all_papers)} papers with 50+ citations and abstracts"
     )
 
     # Randomly select papers
@@ -795,7 +795,7 @@ async def _generate_paper_summary(paper: dict) -> dict:
         )
         conclusion = bart_tokenizer.decode(conclusion_ids[0], skip_special_tokens=True)
 
-        logger.info(f"✓ Successfully generated AI summary for: {title[:50]}...")
+        logger.info(f"[OK] Successfully generated AI summary for: {title[:50]}...")
 
         # Parse findings into bullet points
         # Split on common sentence separators
@@ -900,6 +900,6 @@ async def _generate_paper_summary(paper: dict) -> dict:
         return summary_result
 
     except Exception as e:
-        logger.error(f"✗ Error generating AI summary for '{title[:50]}...': {str(e)}")
+        logger.error(f"[ERROR] Error generating AI summary for '{title[:50]}...': {str(e)}")
         logger.debug("Full error details:", exc_info=True)
         return fallback_summary

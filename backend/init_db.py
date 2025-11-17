@@ -49,6 +49,6 @@ with engine.connect() as conn:
     )
 
     conn.commit()
-    print("✓ Database tables created successfully!")
+    print("[OK] Database tables created successfully!")
 
 engine.dispose()

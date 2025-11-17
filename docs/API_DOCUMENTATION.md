@@ -1,4 +1,4 @@
-# ResearchNow API Documentation 📚
+# ResearchNow API Documentation 
 
 Complete API documentation for the ResearchNow backend.
 
@@ -976,4 +976,4 @@ ws://localhost:8000/api/v1/ws
 
 ---
 
-**Happy coding! 🚀**
+**Happy coding! **

@@ -1,4 +1,4 @@
-# ResearchNow - Complete Setup Guide 🚀
+# ResearchNow - Complete Setup Guide 
 
 This guide will walk you through setting up the complete ResearchNow platform, including backend API, web frontend, and mobile apps.
 
@@ -752,12 +752,12 @@ LLAMA_MODEL_NAME=llama2:7b
 
 ## Next Steps
 
-1. ✅ **Get Started**: Follow Quick Start guide
-2. 📚 **Read API Docs**: Visit http://localhost:8000/api/docs
-3. 🔍 **Test Search**: Try searching for papers
-4. 🤖 **Generate Summaries**: Test AI summarization
-5. 📱 **Try Mobile App**: Set up iOS/Android app
-6. 🚀 **Deploy**: Follow production deployment guide
+1.  **Get Started**: Follow Quick Start guide
+2.  **Read API Docs**: Visit http://localhost:8000/api/docs
+3.  **Test Search**: Try searching for papers
+4.  **Generate Summaries**: Test AI summarization
+5.  **Try Mobile App**: Set up iOS/Android app
+6.  **Deploy**: Follow production deployment guide
 
 ---
 
@@ -845,4 +845,4 @@ MIT License - see [LICENSE](../LICENSE) file for details.
 
 ---
 
-**Happy researching! 🎓✨**
+**Happy researching! ✨**

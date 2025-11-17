@@ -1,16 +1,16 @@
-# ResearchNow - Project Overview 📚🔬
+# ResearchNow - Project Overview 
 
 **An AI-powered research paper summarization platform making scientific literature accessible to everyone.**
 
 ---
 
-## 🎯 Mission
+##  Mission
 
 Transform complex research papers into clear, understandable summaries that anyone can comprehend. Bridge the gap between cutting-edge research and the general public by leveraging AI to simplify scientific communication.
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 ### 1. **Multi-Source Paper Aggregation**
 - **200+ Million Papers** from 8 major sources
@@ -40,9 +40,9 @@ Transform complex research papers into clear, understandable summaries that anyo
 - **Citation Network**: Explore paper relationships
 
 ### 4. **Cross-Platform Access**
-- **🌐 Web App**: Responsive Next.js application
-- **📱 iOS App**: Native mobile experience
-- **🤖 Android App**: Native mobile experience
+- ** Web App**: Responsive Next.js application
+- ** iOS App**: Native mobile experience
+- ** Android App**: Native mobile experience
 - **All platforms share unified backend API**
 
 ### 5. **User Features** (Optional)
@@ -54,7 +54,7 @@ Transform complex research papers into clear, understandable summaries that anyo
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -96,7 +96,7 @@ Transform complex research papers into clear, understandable summaries that anyo
 
 ---
 
-## 🔧 Technology Stack
+##  Technology Stack
 
 ### Backend
 | Component | Technology | Purpose |
@@ -139,7 +139,7 @@ Transform complex research papers into clear, understandable summaries that anyo
 
 ---
 
-## 📊 Data Flow
+##  Data Flow
 
 ### 1. Paper Ingestion Pipeline
 ```
@@ -204,7 +204,7 @@ Return to User
 
 ---
 
-## 🔍 Core Components
+##  Core Components
 
 ### 1. Paper Collection Services
 
@@ -265,7 +265,7 @@ Key models:
 
 ---
 
-## 🚀 Deployment Architecture
+##  Deployment Architecture
 
 ### Development
 ```
@@ -290,7 +290,7 @@ Cloud Provider (AWS/GCP/Azure/DigitalOcean)
 
 ---
 
-## 📈 Scalability Considerations
+##  Scalability Considerations
 
 ### Horizontal Scaling
 - **API Servers**: Multiple instances behind load balancer
@@ -314,7 +314,7 @@ Cloud Provider (AWS/GCP/Azure/DigitalOcean)
 
 ---
 
-## 🔐 Security Features
+##  Security Features
 
 ### API Security
 - Rate limiting (per IP and per user)
@@ -339,7 +339,7 @@ Cloud Provider (AWS/GCP/Azure/DigitalOcean)
 
 ---
 
-## 📱 Mobile App Features
+##  Mobile App Features
 
 ### iOS & Android (React Native)
 - Native navigation
@@ -353,7 +353,7 @@ Cloud Provider (AWS/GCP/Azure/DigitalOcean)
 
 ---
 
-## 🎨 User Experience
+##  User Experience
 
 ### Design Principles
 1. **Simplicity**: Clean, intuitive interface
@@ -381,7 +381,7 @@ Topic search → Read simplified summary → Understand concepts → Explore rel
 
 ---
 
-## 📊 Metrics & Analytics
+##  Metrics & Analytics
 
 ### Platform Metrics
 - Total papers indexed
@@ -436,7 +436,7 @@ Topic search → Read simplified summary → Understand concepts → Explore rel
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Areas where you can help:
 
@@ -451,13 +451,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-## 📄 License
+##  License
 
 MIT License - Free to use, modify, and distribute.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 ### Data Sources
 - arXiv.org - Open access preprints
@@ -481,7 +481,7 @@ MIT License - Free to use, modify, and distribute.
 
 ---
 
-## 📞 Contact & Support
+##  Contact & Support
 
 - **Website**: https://researchnow.app
 - **Email**: hello@researchnow.app
@@ -491,7 +491,7 @@ MIT License - Free to use, modify, and distribute.
 
 ---
 
-## 💡 Use Cases
+##  Use Cases
 
 ### For Researchers
 - Stay updated with latest papers
@@ -519,7 +519,7 @@ MIT License - Free to use, modify, and distribute.
 
 ---
 
-## 🎯 Success Metrics
+##  Success Metrics
 
 **Target by End of Year 1:**
 - 100,000+ monthly active users
@@ -531,7 +531,7 @@ MIT License - Free to use, modify, and distribute.
 
 ---
 
-## 🌍 Impact
+##  Impact
 
 **Our Goal**: Make scientific knowledge accessible to everyone, regardless of their background or expertise level.
 
@@ -539,7 +539,7 @@ MIT License - Free to use, modify, and distribute.
 
 ---
 
-**Built with ❤️ for researchers, students, and curious minds everywhere.**
+**Built with  for researchers, students, and curious minds everywhere.**
 
 ---
 
