@@ -39,8 +39,6 @@ ResearchNow/
 ├── web-frontend/        # React/Next.js web app
 │   └── src/
 │       └── app/         # Next.js app directory
-│
-└── docs/               # Documentation
 ```
 
 ## Tech Stack
@@ -244,7 +242,6 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 - **Issues**: GitHub Issues
 - **Discussions**: GitHub Discussions
-- **Email**: support@researchnow.app
 
 ## Roadmap
 
