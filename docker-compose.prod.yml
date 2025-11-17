@@ -215,7 +215,7 @@ services:
       QDRANT_PORT: 6333
 
       # API Keys
-      GEMINI_API_KEY: ${GEMINI_API_KEY:-AIzaSyCeRaZE6Cs5kEMT9cq_ZvTWNRmHbGRqdpA}
+      
       SECRET_KEY: ${SECRET_KEY}
 
       # OAuth
